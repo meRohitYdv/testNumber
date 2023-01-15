@@ -1,6 +1,6 @@
 
 function isPrime(number){
-  if(number<=2)
+  if(number<2)
     return false;
   
   for(let it=2; it<number; it++)
@@ -21,6 +21,7 @@ function isArm(number){
   return false;
 }
 
-let test = 0;
-console.log(isPrime(test));
-console.log(isArm(test));
+
+module.exports.isArm = isArm;
+module.exports.isPrime = isPrime;
+

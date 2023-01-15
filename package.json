@@ -1,11 +1,22 @@
 {
   "name": "checkingnumber",
   "version": "1.0.0",
-  "description": "",
   "main": "primeOrArm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meRohitYdv/testNumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meRohitYdv/testNumber/issues"
+  },
+  "homepage": "https://github.com/meRohitYdv/testNumber#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
